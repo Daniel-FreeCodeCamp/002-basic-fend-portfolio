@@ -1,0 +1,92 @@
+/*
+Note:  The font and bg-color in <body> was overridden by scaffolding.less.  
+I found this out by going to Codepen Settings gear/Change View/Debug Mode.
+Adding !important fixed that problem.  
+*/ 
+body {
+    font-size: 160%;
+    font-family: "Montserrat",sans-serif !important;
+    background-color: #f0f0f0 !important;
+}
+
+.myLogo
+{
+    font-size:200%; 
+    font-family:Lobster;
+    color:#337ab7;
+}
+
+.navbar
+{
+  margin-left:0px;
+  margin-right:0px;   
+  color:#282828;
+}
+
+#content
+{ 
+  margin-left:40px;
+  margin-right:40px;
+}
+
+#about
+{
+    background-color:white; 
+    margin-top:50px;
+    margin-bottom: 0px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+
+#portfolio
+{
+    margin-top:10px;    
+    padding-top: 30px;
+    background-color:white;     
+    margin-bottom: 10px;    
+}
+
+#contact
+{
+    background-color:#808080;  
+    color:ghostwhite;
+    margin-bottom: 10px;   
+    padding-bottom:30px;    
+}   
+
+#contact .highlight1
+{
+    color:#323232;
+}
+
+#contact ul
+{
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+#detail1
+{
+    padding-bottom:30px;
+    padding-top:30px;       
+}     
+
+#detail2
+{  
+    padding-bottom:30px;
+    padding-top:30px;       
+}         
+#footer
+{
+    margin-top: 10px;    
+    margin-bottom: 10px;  
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#323232;  
+    color:ghostwhite;    
+}     
+   
