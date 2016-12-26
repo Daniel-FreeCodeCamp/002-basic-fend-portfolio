@@ -10,7 +10,7 @@ $(document).ready(function(){
 	//------------------------------------------------------
 	var tagsCount = Object.keys(jsonTags.tags).length;
 	var tagsDiv = document.getElementById('tagsDiv');
-	var tagList = "<span style='margin-right:40px;'>Select Tags:</span><br>";
+	var tagList = "<!-- script.js generated --><span style='margin-right:10px;'>Click Tags:</span>";
 	
 	//console.log("document ready");
 
@@ -137,6 +137,16 @@ $(document).ready(function(){
 		//$(projectListStr).insertAfter("#projectList");
 		//$('#projectList').fadeIn('slow');			
 	});	// tag buttons
+	
+	
+	// now the buttons are set up (above) with click events that toggle the project cells
+	// let's trigger click event for each button so the projects show up when document is loaded
+	$('.tagsClass').each(function(index, obj){
+    	var isel = $(this);
+		//console.log(isel);
+		isel.trigger( "click" );
+	});
+	
 }); // document).ready(function()
 
 //------------------------------------------------------

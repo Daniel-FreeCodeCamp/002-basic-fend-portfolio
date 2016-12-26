@@ -44,22 +44,25 @@ body {
     margin-top:0px;    
     padding-top: 10px; 
     padding-bottom: 10px; 	
-    background-color:#D0D0D0;     
+    /* background-color:#D0D0D0;  */
+    background-color:white;  
     margin-bottom: 0px;    
 }
 
 #portfolio
 {
     margin-top:0px;    
-    background-color:#F0F0F0;    
+    background-color:#F0F0F0;    	
     padding-top: 10px; 
     margin-bottom: 0px;    
 }
 
 #contact
 {
-    background-color: #808080;   
-    color:ghostwhite;
+    background-color: white;   
+    /*color:ghostwhite;
+     background-color: #808080;   
+    color:ghostwhite; */	
     margin-bottom: 0px;   
     padding-bottom:0px;    
 }   
@@ -96,8 +99,11 @@ body {
     margin-bottom: 10px;  
     padding-top:10px;
     padding-bottom:10px;
+	/*
     background-color:#323232; 
     color:ghostwhite;    
+	*/
+    background-color:white; 
 }     
    
 .tagsClass {
